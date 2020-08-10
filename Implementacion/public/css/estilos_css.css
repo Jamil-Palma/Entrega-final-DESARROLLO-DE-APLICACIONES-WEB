@@ -1,0 +1,10 @@
+table{
+	border-collapse: separate;
+}
+.horario th{
+	border: solid black;
+}
+.horario td{
+	background: red;
+	border: green;
+}

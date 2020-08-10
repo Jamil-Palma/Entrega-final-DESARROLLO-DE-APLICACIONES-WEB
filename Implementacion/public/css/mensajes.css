@@ -1,0 +1,43 @@
+/*TODO EL CUERPO DE LA PAGINA*/
+
+
+
+/*CAMBIAR LEL ESTILO A MODAL*/
+.modal-header
+{
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    color: white;
+    background: linear-gradient(90deg, #1B1464, #686de0);
+}
+.modal-header .close{margin-top:2px}
+.modal-header h3{margin:0;line-height:30px}
+.modal-body {
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background: linear-gradient(90deg,#30336b, #130f40);
+    color: white;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+ }
+ .modal-content
+{
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    background-color: transparent;
+}
+.modal-footer button
+{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    -webkit-border-bottom-left-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    -moz-border-radius-bottomleft: 6px;
+    -moz-border-radius-bottomright: 6px;
+    background: linear-gradient(90deg,#ff7979, #eb4d4b);
+}

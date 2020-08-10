@@ -1,0 +1,126 @@
+/*TODO EL CUERPO DE LA PAGINA*/
+main
+{
+    color: white;
+    align-content: center;
+    /*border: 5px red solid;*/
+}
+
+/*EL CUADRO GENERAL DE LOS ENVIOS*/
+/*EDITAR EL PERFIL DEL USUSARIO*/
+.cuadro
+{
+    color: #fcf6f6;
+    font-size: 20px; 
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border-right: 6px solid black;
+    background-color: #636e72;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 5%;
+    opacity: 0.9;
+    padding: 30px;
+    width: 90%;
+    max-width: 400px;
+    margin: 30px;
+    /*border: yellow 5px solid;*/
+}
+
+
+
+/*DISEÑO DE LAS INPUTS*/
+.dinput
+{
+    background-color: #ced6e0;
+    border: #57606f 5px solid;
+    max-width: 350px;
+}
+/*DSEÑO DE BOTONES*/
+.dbtn
+{
+    max-width: 390px;
+}
+.dbtn2
+{
+    background-color: #0275d8;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    min-width: 100px;
+    max-width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 15px 0 15px 0;
+}
+.dbtn2 a
+{
+    text-decoration: none;
+    color: white;
+}
+/*RESPUESTAS DE LOS BOTONES*/
+.dbtn2:hover
+{
+    /*background: #1e90ff;*/
+    background: linear-gradient(90deg, #ff3838, #fffa65);
+    cursor: pointer;
+    transition: all 300ms;
+}
+/*AL HACER CLICK AL BOTON ENVIAR*/
+.dbtn2:active
+{
+    transform: scale(0.95);
+}
+
+/*CAMBIAR LEL ESTILO A MODAL*/
+.modal-header
+{
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    color: white;
+    background: linear-gradient(90deg, #1B1464, yellow);
+}
+.modal-header .close{margin-top:2px}
+.modal-header h3{margin:0;line-height:30px}
+.modal-body {
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background: linear-gradient(90deg,#30336b, #130f40);
+    color: white;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+ }
+ .modal-content
+{
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    /*background-color: transparent;*/
+}
+.modal-footer button:hover
+{
+    /*background: #1e90ff;*/
+    background: linear-gradient(90deg, red, white);
+    cursor: pointer;
+    transition: all 300ms;
+    color: white;
+}
+.modal-footer button
+{
+    color: black;
+    cursor: pointer;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    -webkit-border-bottom-left-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    -moz-border-radius-bottomleft: 6px;
+    -moz-border-radius-bottomright: 6px;
+    background: linear-gradient(90deg,#ff7979, #eb4d4b);
+}
+

@@ -1,0 +1,52 @@
+/*LA PAGINA PRINCIPAL*/
+main{
+    padding-top: 60px;
+    border: yellow 5px solid;
+}
+/*PARTE CENTRAL DE LA PAGINA*/
+main .columna{
+    margin-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /*border: black 5px solid;*/
+}
+/*TITULO DE LA PARTE PRINCIPAL*/
+main .titulo{
+    color: #0a0b0e;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+    /*border: red 5px solid;*/
+}
+/*RECUADRO DE LA PARTE PRINCIPAL*/
+main .widget{
+    margin-bottom: 40px;
+    /*border: yellow 5px solid;*/
+}
+
+
+/*RECUADRO DE TEXTO*/
+/**/
+main .widget form input[type="text"],
+main .widget form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    /*border: blue 5px solid;*/
+}
+/*TEXTO DEL RECUADRO*/
+main .widget form input[type="text"]{
+    font-weight: 500;
+}
+/*RECUADRO REVISAR SE REPITE*/
+main .widget form textarea{
+    height: 450px;
+    min-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+    /*border: lightblue 5px solid;*/
+}
